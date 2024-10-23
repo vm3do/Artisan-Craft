@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    position: absolute;
+    height: 16vh;
+    top: -2px;
+    left: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0704;
+    height: 8vh;
+}
+
+.navbar {
+    width: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: #F5EDE1;
+    font-size: 20px;
+}
+.slider-section{
+    background-color: #4A332A;
+    height: 92vh;
+
+}
