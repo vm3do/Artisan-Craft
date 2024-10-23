@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*********** Start header **********/
+
+.logo {
+    position: absolute;
+    height: 16vh;
+    top: -2px;
+    left: 10vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0704;
+    height: 8vh;
+}
+
+.navbar {
+    width: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F5EDE1;
+    font-size: 20px;
+}
+
+/*********** End header **********/
+
+
+/*********** Start contact-section **********/
+
+.contact-section{
+    display: flex;
+    background-image: url(images/background5.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 92vh;
+}
