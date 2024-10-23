@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
@@ -6,8 +6,9 @@ body{
 .logo {
     position: absolute;
     height: 16vh;
+    width: 32vw;
     top: -2px;
-    left: 10vh;
+    left: 0;
 }
 
 header {
@@ -16,23 +17,41 @@ header {
     align-items: center;
     background-color: #0F0704;
     height: 8vh;
+    width: 100%;
 }
 
 .navbar {
-    width: 60vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
 }
-.navbar li{
+
+.navbar li {
     list-style-type: none;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     color: #F5EDE1;
-    font-size: 20px;
+    font-size: 80wv;
 }
-.slider-section{
+
+.slider-section {
     background-color: #4A332A;
     height: 92vh;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.slider-wrapper {
+    overflow-x:  hidden;
+    width: 40%  ;
+}
+
+.slider-content {
+    position: relative;
+    width: 500%;
+    animation: 20s slider infinite;
+}
+    
