@@ -1,0 +1,149 @@
+body{
+    margin :0px;
+    padding :0px;
+}
+.prod1-details{
+
+    background-color: #2B1D1B;
+
+}
+.prod1-details__content{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.prod1-details__content__prod-info{
+    height: 74%;
+    width: 50%;
+    background-color: #4A332A;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.prod1-details__content__prod-info__prod-description{
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.prod1-details__content__prod-info__evaluation{
+    display: flex;
+    justify-content: center;
+}
+.prod1-details__content__prod-info__price{
+
+    width:70px;
+    height: 40px;
+    text-align: center;
+    font-style: bolder;
+    font-size: x-large;
+    word-spacing: 8px;
+}
+.prod1-details__content__prod-info__buttons{
+
+    width:25%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prod1-details__content__prod-info__buttons__buy-now{
+    width: 43%;
+    height: 50%;
+    border:solid 2px #E16A3E;
+    border-radius: 15%;
+    background-color: #E16A3E;
+    color:white;
+    font-size:100%;
+    font-weight:bold;
+
+}
+.prod1-details__content__prod-info__buttons__add-to-card{
+    width: 43%;
+    height: 50%;
+    border:solid 2px #E16A3E;
+    border-radius: 15%;
+    background-color: transparent;
+    color: white;
+    font-size:76%;
+    font-weight: bold;
+
+}
+/* footer styling */
+footer {
+    background-color: #241a18;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .list,
+  .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .list li,
+  .social-media li {
+    margin: 0 10px;
+  }
+  
+  .list a,
+  .social-media a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .social-media img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+    }
+    .list,
+    .social-media {
+      justify-content: center;
+    }
+    .list li,
+    .social-media li {
+      margin: 10px 0;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+  @media (max-width: 480px) {
+    .social-media img {
+      width: 20px;
+      height: 20px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+
+
+
