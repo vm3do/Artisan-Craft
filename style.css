@@ -54,7 +54,6 @@ nav ul li a:hover {
 .main-about .text-container {
   display: flex;
   justify-content: center;
-  padding: 2rem;
 }
 .main-about .text-container .text {
   display: flex;
@@ -101,7 +100,7 @@ nav ul li a:hover {
 }
 .mid-about .mid-container .mid-text {
   text-align: center;
-  max-width: 70%;
+  max-width: 82%;
   margin: 0 auto;
 }
 .mid-about .mid-container .mid-text h1 {
@@ -232,4 +231,32 @@ p {
 .last-images {
   display: flex;
   justify-content: space-around;
+}
+.last-images img {
+  width: 20%;
+}
+
+@media (max-width: 320px) {
+  .main-about .text-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main-about .text-container .text {
+    width: 100%;
+  }
+  .text p {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .mid-about .mid-container .mid-text {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  nav ul {
+    display: none;
+  }
+  .main-about div {
+    gap: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
