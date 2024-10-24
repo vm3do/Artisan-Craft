@@ -81,7 +81,7 @@ nav {
   .text-container {
     display: flex;
     justify-content: center;
-
+    margin-bottom: 2%;
     .text {
       display: flex;
       flex-direction: column;
@@ -198,10 +198,6 @@ nav {
     }
   }
 
-  .logo {
-    width: 40vw;
-  }
-
   .mid-about {
     .mid-container {
       .mid-images {
@@ -300,7 +296,7 @@ p {
     width: 20%;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .main-about .text-container {
     display: flex;
     justify-content: center;
