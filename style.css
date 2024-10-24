@@ -8,48 +8,73 @@ ul {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  background-color: #4a332a;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0704;
+  height: 8vh;
+  width: 100%;
+}
 nav ul {
-  padding: 0px;
-  margin: 0px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
 nav ul li {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 200px;
-  background-color: #000000;
+  list-style-type: none;
 }
-nav ul li .nav-sections {
+nav ul li a {
+  text-decoration: none;
+  color: #f5ede1;
+  font-size: 80wv;
+}
+
+.logo {
+  position: absolute;
+  height: 16vh;
+  width: 32vw;
+  top: -2px;
+  left: 0;
+}
+
+.main-about {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-around;
+  align-items: center;
 }
-nav ul li .nav-sections a {
-  color: #ffffff;
-  text-decoration: none;
-  padding: 10px;
+.main-about div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
 }
-nav ul li .nav-sections a:hover {
-  cursor: pointer;
-  background-color: #fff;
-  color: #000000;
-  border-radius: 10px;
+.main-about .text {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5%;
+  width: 80%;
 }
-nav ul li button {
-  background-color: #e16a3e;
-  color: #000000;
-  border: none;
-  padding: 10px;
-  border-radius: 10px;
+.main-about .text h1 {
+  color: #4a332a;
 }
-nav ul li button:hover {
-  cursor: pointer;
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 10px;
+.main-about .text p {
+  padding: 4%;
+}
+.main-about .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  flex: 2;
 }/*# sourceMappingURL=style.css.map */
