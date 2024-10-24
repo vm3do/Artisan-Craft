@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    height: 16vh;
+    width: 32vw;
+    top: -2px;
+    left: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0704;
+    height: 8vh;
+    width: 100%;
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F5EDE1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    height: 92vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display';
+    color: #F5EDE1;
+}
+
+.container h1 {
+    font-size: 7vw;
+    line-height: 1.1;
+    padding-bottom: 2rem;
+}
+
+main p {
+    font-size: 1.4vw;
+}
+
+p {
+    color: #F5EDE1;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    background-color: #E16A3E;
+    color: white;
+    height: 2.6rem;
+    width: 10rem;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    background-color: #4A332A;
+    justify-content: center;
+    align-items: center;
+}
+
+section .sec-img img{
+    width: 45vw;
+}
+
+section .sec-txt {
+    width: 55vw;
+    padding: 0 10vw 0 5vw;
+}
+
+h2 {
+    font-size: 4vw;
+    margin-bottom: 4vh;
+}
+
+.sec-txt p {
+    font-size: 1.3vw;
+}
+
+.rev .card {
+    background-color: ;
+}
