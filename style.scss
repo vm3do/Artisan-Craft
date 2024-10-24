@@ -112,6 +112,11 @@ nav {
       height: 300px;
       object-fit: cover;
       border-radius: 8px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
     }
   }
 }
@@ -288,4 +293,8 @@ p {
   p {
     font-size: 12px;
   }
+}
+.last-images {
+  display: flex;
+  justify-content: space-around;
 }

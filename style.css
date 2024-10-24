@@ -84,6 +84,10 @@ nav ul li a:hover {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.main-about .images img:hover {
+  transform: scale(1.05);
 }
 
 .mid-about {
@@ -224,4 +228,8 @@ p {
   p {
     font-size: 12px;
   }
+}
+.last-images {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
