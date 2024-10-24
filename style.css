@@ -54,6 +54,7 @@ nav ul li a:hover {
 .main-about .text-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
 }
 .main-about .text-container .text {
   display: flex;
@@ -147,9 +148,6 @@ nav ul li a:hover {
   nav ul {
     width: 80%;
   }
-  .logo {
-    width: 40vw;
-  }
   .mid-about .mid-container .mid-images {
     grid-template-columns: 1fr;
   }
@@ -236,7 +234,7 @@ p {
   width: 20%;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .main-about .text-container {
     display: flex;
     justify-content: center;
