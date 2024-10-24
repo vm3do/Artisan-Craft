@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>products page</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c32ae5fcac.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 
 <body>
@@ -18,18 +20,194 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
+
     <section class="slider-section">
+        <div class="nav">
+            <label for="slide2">Gift ideas</label>
+            <label for="slide1" class="top-selers">Top Sellers</label>
+            <label for="slide3">New releases</label>
+        </div>
 
         <div class="slider-wrapper">
-            <div class="slider-content">
-            <img src="images/image 4.svg" alt=""> 
-            <img src="images/image 4.svg" alt=""> 
-            <img src="images/image 4.svg" alt=""> 
-        </div>
+
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+
+            <div class="slides">
+                <div class="slide"><img src="images/top sellers.svg" alt="Image 1"></div>
+                <div class="slide"><img src="images/image 11.svg" alt="Image 2"></div>
+                <div class="slide"><img src="images/image 12.svg" alt="Image 3"></div>
+            </div>
         </div>
 
     </section>
 
+    <section class="products-section">
+        <h1>Products</h1>
+        <div class="products">
+            <div class="product">
+
+                <div class="product-image">
+                    <img src="images/Product 1.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+
+            </div>
+            <div class="product">
+
+                <div class="product-image">
+                    <img src="images/Product 2.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+
+            </div>
+            <div class="product">
+
+                <div class="product-image">
+                    <img src="images/Product 3.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+
+            </div>
+            <div class="product">
+
+                <div class="product-image">
+                    <img src="images/Product 4.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Product 5.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Product 6.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Product 7.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/Product 8.svg" alt="">
+                </div>
+                <div class="infos">
+                    <h2>29$</h2>
+                    <a href="#">
+                        <h3>More details</h3>
+                    </a>
+                    <button class="add"><i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="#"><button id="button-previous"> previous</button></a>
+            <a href="#"><button id="button-next">next</button></a>
+        </div>
+    </section>
+
+
+    <section class="customize-section">
+        <div class="title">
+            <h1>Customize you Product</h1>
+        </div>
+        <div class="content">
+            <section class="contact-section">
+
+                <div class="contact-form">
+                    <div class="contact-info">
+                        <h1>Add a special touch</h1>
+                        <p>
+                            Write us a description of what you want us to add on your item !
+                        </p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Last Name" required>
+                            <input type="text" placeholder="First Name" required>
+                        </div>
+                        <input type="email" placeholder="Email" required>
+                        <input type="text" placeholder="The product" required>
+                        <textarea placeholder="Description ..." required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
+            <div class="texte-container">
+                <div class="texte">
+                    <h1>Be The Artisan !</h1>
+                    <p>Handcrafted treasures, straight from the hands of local artisans to your home. Each piece tells a
+                        story. Start your journey today!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Products</li>
+            <li>Contact Us</li>
+        </ul>
+        <ul class="social-media">
+            <li><a href="#"><img src="images/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="#"><img src="images/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="#"><img src="images/twitter.svg" alt="X"></a></li>
+            <li><a href="#"><img src="images/youtube.svg" alt="Youtube"></a></li>
+        </ul>
+        <p>© All rights reserved</p>
+    </footer>
 </body>
 
 </html>
