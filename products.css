@@ -125,6 +125,12 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+button{
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: #FF9B6A;
+}
 
 #button-previous {
     background-color: #E16A3E;
@@ -133,7 +139,10 @@ header {
     padding: 12px;
     width: 90px;
     color: #F5EDE1;
-
+    transition: all 0.5s;
+}
+#button-previous:hover{
+    background-color: #FF9B6A;
 }
 
 #button-next {
@@ -143,6 +152,10 @@ header {
     padding: 12px;
     width: 90px;
     color: #F5EDE1;
+    transition: all 0.5s;
+}
+#button-next:hover{
+    background-color: #FF9B6A;
 }
 
 .slider-wrapper {
@@ -342,23 +355,29 @@ button {
 .contact-form {
     width: 60%;
 }
+footer {
+    background-color: #241A18;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
-
-.list,
-.social-media {
+.list, .social-media {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
+    gap: 20px;
 }
 
-.list li,
-.social-media li {
+.list li, .social-media li {
     margin: 0 10px;
 }
 
-.list a,
-.social-media a {
+.list a, .social-media a {
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -376,26 +395,6 @@ p {
     text-align: center;
 }
 
-footer {
-    background-color: #241A18;
-    color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.copyright {
-    width: 60%;
-    border-top: solid #F5EDE1 1px;
-}
-
-.links {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 
 @media (max-width : 860px) {
     .nav {
@@ -593,19 +592,7 @@ footer {
         width: 60px;
         cursor: pointer;
     }
-    .copyright {
-        width: 60%;
-        border-top: solid #F5EDE1 1px;
-    }
-    
-    .links {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .list{
-        display: none;
-    }
+
 }
 
 @media (max-width : 414px) {
@@ -712,5 +699,33 @@ footer {
 
     .slider-section {
         display: none;
+    }
+}
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .list, .social-media {
+        justify-content: center;
+    }
+
+    .list li, .social-media li {
+        margin: 10px 0;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-media img {
+        width: 20px;
+        height: 20px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
