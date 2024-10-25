@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -35,6 +34,7 @@ header {
     text-decoration: none;
     color: #F5EDE1;
 }
+
 
 body {
     background-color: #2B1D1B;
@@ -80,6 +80,7 @@ main p {
 
 p {
     color: #F5EDE1;
+    font-family: 'Poppins', sans-serif;
 }
 
 button {
@@ -261,35 +262,81 @@ section button {
     .sec-txt p {
         font-size: 2.4vw;
     }
+}
+
+@media (max-width :320px) {
+    .navbar a {
+        margin-right: 10px;
+    }
+}
 
     /* footer */
 
-    @media (max-width: 768px) {
-        footer {
-            flex-direction: column;
-        }
-    
-        .list, .social-media {
-            justify-content: center;
-        }
-    
-        .list li, .social-media li {
-            margin: 10px 0;
-        }
-    
-        p {
-            margin-top: 10px;
-        }
+footer {
+    background-color: #241A18;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list, .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.list li, .social-media li {
+    margin: 0 10px;
+}
+
+.list a, .social-media a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
     }
-    
-    @media (max-width: 480px) {
-        .social-media img {
-            width: 20px;
-            height: 20px;
-        }
-    
-        p {
-            font-size: 12px;
-        }
+
+    .list, .social-media {
+        justify-content: center;
+    }
+
+    .list li, .social-media li {
+        margin: 10px 0;
+    }
+
+    footer p {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-media img {
+        width: 20px;
+        height: 20px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
