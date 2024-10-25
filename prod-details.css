@@ -283,6 +283,11 @@ header {
     text-decoration: none;
     color: #F5EDE1;
 }
+@media (max-width :320px) {
+  .navbar a {
+      margin-right: 10px;
+    }
+}
 
 
 
