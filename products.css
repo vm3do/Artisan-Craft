@@ -50,12 +50,8 @@ header {
 
 }
 
-
-
-
-
 .products-section {
-    background-color: #2B1D1B;
+    background-color: #755346;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -151,7 +147,7 @@ header {
 
 .slider-wrapper {
     height: max-content;
-    width: 50%;
+    width: 60%;
     overflow: hidden;
     position: relative;
 }
@@ -170,7 +166,9 @@ header {
     width: 100%;
     height: auto;
     opacity: 0.9;
+    transition: 0.5s;
 }
+
 
 .nav {
     width: 60%;
