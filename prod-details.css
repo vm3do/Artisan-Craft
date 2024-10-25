@@ -2,6 +2,7 @@ body{
     margin :0px;
     padding :0px;
 }
+
 .prod1-details{
   height: 100vh;
     background-color: #2B1D1B;
@@ -82,6 +83,10 @@ body{
     font-size:100%;
     font-weight:bold;
 
+}
+button:hover{
+  scale:105%;
+  box-shadow: 0px 0px 9px 2px #b46b46;
 }
 .prod1-details__content__prod-info__buttons__add-to-card{
   width: 120px;
@@ -247,6 +252,37 @@ footer {
       font-size: 12px;
     }
   }
+  .logo {
+    position: absolute;
+    height: 16vh;
+    width: 32vw;
+    top: -2px;
+    left: 0;
+}
+/*header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F0704;
+    height: 8vh;
+    width: 100%;
+}
+
+.navbar {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #F5EDE1;
+}
 
 
 
