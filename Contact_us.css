@@ -41,6 +41,7 @@ header {
 }
 
 
+
 /*********** End header **********/
 
 
@@ -288,3 +289,9 @@ p {
         font-size: 12px;
     }
 }
+
+
+@media (max-width :320px) {
+    .navbar a {
+        margin-right: 10px;
+    }
